@@ -1,6 +1,5 @@
 {
     "baseUrl": "https://events-staging.unibuddy.co/your-university/my-first-event/",
-    "taskTimeout": 300000,
     "defaultCommandTimeout": 120000,
     "pageLoadTimeout": 640000
 }
