@@ -12,4 +12,5 @@ NOTE: Make sure all the 3 services - server/search-service/author-service are up
 * The idea is to basically enable layout for writing both independent tests + integration tests
 * The tests developed so far are not exhaustive and just positive ones
 * I see the services work only for postive use cases and are hung in case of negative test cases like malformed paylaods and etc - So, didn't dig deeper to cover other tests / scenarios
-* I have compromised in test data generation / comments / etc @ some instances due to time constraints intentionally. It was definitely not realistic to cover all the scenarios in the specified time.
+* I have compromised in test data generation / comments / etc @ some instances due to time constraints intentionally. It was definitely not realistic to cover all the scenarios in the specified time
+* The test data generation is critical and if taken care smartly - The tests can be parametrized for various input attributes to validate the robustness of API/s
